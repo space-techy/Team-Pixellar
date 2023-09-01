@@ -3,9 +3,11 @@ import "./footer.css";
 function Footer() {
   return (
     <footer className="site-footer bg-black">
-      <div className="container">
-        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
-          <div className="col p-2 footer-container map-wala-div container">
+      <div className="container1">
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 container">
+        
+          <div className="col p-2 footer-container map-wala-div ">
+            <div>
             <iframe
               className="map-wala-iframe"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124384.28216285867!2d77.42680504335938!3d13.035110299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17e7a949cae9%3A0x8397364610ef2771!2sIndian%20Space%20Research%20Organisation!5e0!3m2!1sen!2sin!4v1693548386453!5m2!1sen!2sin0"
@@ -13,11 +15,13 @@ function Footer() {
               height="280"
               frameBorder="0"
               aria-hidden="false"
-              tabIndex={0}
-            ></iframe>
-          </div>
+              tabIndex={0}></iframe>
+            </div>
+            
+            </div>
+        
 
-          <div className="col p-2 footer-container">
+          <div className="col p-2 footer-container footer-wala-div">
             <h3 className="footer-heading">Useful Links</h3>
             <div className="line"></div>
             <div className="contact-links">
