@@ -1,0 +1,32 @@
+.hero_section {
+  position: relative; /* Create stacking context for absolute positioning */
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(../../../public/assets/Home/hero-background.jpg);
+}
+
+.parallax-img {
+  position: absolute;
+  width: 250px;
+  top: 60%; /* Initial vertical position */
+  left: 50%; /* Horizontal centering */
+  transform: translate(-50%, -50%) translateY(0); /* Initial position */
+
+  transition: transform 0.3s ease; /* Add smooth transition */
+}
+.chandrayaan-3-hero {
+  width: 30%;
+  position: absolute;
+  left: 40px;
+  top: 200px;
+  z-index: 1;
+  color: white;
+}
+.chandrayaan-3-hero-head {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.chandrayaan-3-hero-para {
+  font-size: 1rem;
+}
