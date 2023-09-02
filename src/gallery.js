@@ -3,7 +3,7 @@ import "./gallery.css";
 
 const Gallery = () => {
   return (
-    <div className="gallery">
+    <div className="gallery p-5" id="gallery">
       <div className="pslv">
         <h1 className="gallery-title">Gallery</h1>
         <div className="image-container">
