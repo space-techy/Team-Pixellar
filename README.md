@@ -1,5 +1,7 @@
-#Website for Space info
+# Website for Space info
+
 A website made using React.js for giving info about projects and info about ISRO.
+
 
 # React & Tailwind CSS Starter Pack
 
